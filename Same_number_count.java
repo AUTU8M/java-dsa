@@ -9,17 +9,21 @@ public class Same_number_count {
             int temp = num;
             int count = 0;
 
-            while (temp!=0){
-                int last_number = temp%10;
-                if(current_num==last_number){
+            while (temp != 0) {
+                int last_number = temp % 10;
+                if (current_num == last_number) {
                     count++;
                 }
-                temp = temp/10;
+                temp = temp / 10;
             }
-            if(count>=2){
-                System.out.println("in the number "+ num+" the digit "+ current_num+" appres "+ count + " time(s).");
+            if (count >= 2) {
+
+                System.out.println("in the number " + num + " the digit " + current_num + " appres " + count + " time(s).");
+
+fdkjsflksdjfslkfjsklfjslkV
             }
         }
 
     }
 }
+
