@@ -1,5 +1,3 @@
-package Condition_and_loops;
-
 import java.util.Scanner;
 
 public class Maxval {
